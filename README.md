@@ -35,5 +35,5 @@ The pipeline workflow (`.github/workflows/main.yml`) consists of two main jobs:
 
 
 
-  <img width="1918" height="867" alt="image" src="https://github.com/user-attachments/assets/2b232f6f-1860-49c0-a43e-382a57deeafe" />
+  
 

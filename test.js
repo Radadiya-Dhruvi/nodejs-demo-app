@@ -1,8 +1,10 @@
-console.log('Automated test running...');
-if (1 + 1 === 2) {
-  console.log('Test Passed!');
-  process.exit(0);
-} else {
-  console.log('Test Failed!');
-  process.exit(1);
-}
+const request = require('supertest');
+const app = require('./app');
+
+describe('GET /', () => {
+  it('should return 200 and cafe text', async () => {
+    const res = await request(app).get('/');
+    expect(res.statusCode).toEqual(200);
+    expect(res.text).toContain('Cozy Bean Café');
+  });
+});

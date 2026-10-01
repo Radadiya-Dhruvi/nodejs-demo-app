@@ -1,7 +1,7 @@
 # Node.js Web App with CI/CD Pipeline
 
 This project demonstrates an automated CI/CD pipeline built for a Node.js web application using **GitHub Actions** and **DockerHub**.
-
+![Cozy Bean Café Preview](screenshots/cafe-preview.png)
 ---
 
 ## 📌 Project Overview
